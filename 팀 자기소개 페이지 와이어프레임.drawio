@@ -376,6 +376,18 @@
         <mxCell id="UKUCSULhMM2xUb-GKfbj-236" value="Contact" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1;fontSize=23;" vertex="1" parent="UKUCSULhMM2xUb-GKfbj-217">
           <mxGeometry x="290" y="180" width="100" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="UKUCSULhMM2xUb-GKfbj-247" value="" style="group" vertex="1" connectable="0" parent="UKUCSULhMM2xUb-GKfbj-217">
+          <mxGeometry x="110" y="280" width="490" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="UKUCSULhMM2xUb-GKfbj-244" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://cdn-icons-png.flaticon.com/512/25/25231.png;" vertex="1" parent="UKUCSULhMM2xUb-GKfbj-247">
+          <mxGeometry width="107.8" height="107.8" as="geometry" />
+        </mxCell>
+        <mxCell id="UKUCSULhMM2xUb-GKfbj-245" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://cdn-icons-png.flaticon.com/512/25/25231.png;" vertex="1" parent="UKUCSULhMM2xUb-GKfbj-247">
+          <mxGeometry x="170.75757575757575" width="107.8" height="107.8" as="geometry" />
+        </mxCell>
+        <mxCell id="UKUCSULhMM2xUb-GKfbj-246" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://cdn-icons-png.flaticon.com/512/25/25231.png;" vertex="1" parent="UKUCSULhMM2xUb-GKfbj-247">
+          <mxGeometry x="341.5151515151515" width="107.8" height="107.8" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
