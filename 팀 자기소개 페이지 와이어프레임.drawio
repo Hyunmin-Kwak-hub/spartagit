@@ -307,6 +307,9 @@
         <mxCell id="UKUCSULhMM2xUb-GKfbj-209" value="Tmi" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1;fontSize=23;" vertex="1" parent="UKUCSULhMM2xUb-GKfbj-190">
           <mxGeometry x="310" y="180" width="60" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="UKUCSULhMM2xUb-GKfbj-248" value="개인 자기소개" style="rounded=1;whiteSpace=wrap;html=1;fontSize=20;fontStyle=1" vertex="1" parent="UKUCSULhMM2xUb-GKfbj-190">
+          <mxGeometry x="110" y="230" width="460" height="210" as="geometry" />
+        </mxCell>
         <mxCell id="UKUCSULhMM2xUb-GKfbj-217" value="" style="swimlane;startSize=0;" vertex="1" parent="1">
           <mxGeometry x="800" y="1230" width="680" height="520" as="geometry" />
         </mxCell>
