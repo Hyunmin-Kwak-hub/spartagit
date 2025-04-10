@@ -59,7 +59,7 @@
           <mxGeometry x="250" y="135" width="80" height="25" as="geometry" />
         </mxCell>
         <mxCell id="UKUCSULhMM2xUb-GKfbj-34" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="UKUCSULhMM2xUb-GKfbj-1">
-          <mxGeometry x="185" y="200" width="310" height="210" as="geometry" />
+          <mxGeometry x="185" y="190" width="310" height="220" as="geometry" />
         </mxCell>
         <mxCell id="UKUCSULhMM2xUb-GKfbj-35" value="&amp;nbsp;사진" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="UKUCSULhMM2xUb-GKfbj-1">
           <mxGeometry x="230" y="210" width="220" height="30" as="geometry" />
