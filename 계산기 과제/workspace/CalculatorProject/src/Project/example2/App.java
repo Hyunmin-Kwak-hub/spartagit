@@ -1,5 +1,8 @@
 package Project.example2;
 
+// 해야할것
+// 계산기 기능을 Calculator에서 가져와서 사용하기.
+
 import java.util.Scanner;
 
 public class App {
