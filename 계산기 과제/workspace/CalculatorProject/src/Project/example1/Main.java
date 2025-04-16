@@ -16,17 +16,29 @@ public class Main {
         String mod = "%";
         String exit = "exit";
 
+        int num1;
+        int num2;
+        int result;
+
 
         for (;;) {
             System.out.print("계산 기호 입력(ex: +, -, X, /) 종료하려면 exit입력: ");
             String res1 = scanner.nextLine();
+
+            // 탈출부분
             if (res1.equals(exit)) {
                 return;
             }
 
-            int num1 =0;
-            int num2 =0;
-            int result = 0;
+            // 입력이 비었을 경우
+            if (res1.isEmpty()) {
+                System.out.println("입력이 비어있습니다. 다시 입력해주세요.");
+                continue;
+            }
+
+            num1 =0;
+            num2 =0;
+            result = 0;
 
             switch (res1) {
                 case sum:
