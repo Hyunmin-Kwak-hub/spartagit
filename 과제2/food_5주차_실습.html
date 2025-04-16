@@ -223,16 +223,14 @@
         }
     </style>
     <script type="module">
+        // Firebase SDK 라이브러리 가져오기
         import { initializeApp } from "https://www.gstatic.com/firebasejs/9.22.0/firebase-app.js";
         import { getFirestore } from "https://www.gstatic.com/firebasejs/9.22.0/firebase-firestore.js";
         import { collection, addDoc } from "https://www.gstatic.com/firebasejs/9.22.0/firebase-firestore.js";
         import { getDocs } from "https://www.gstatic.com/firebasejs/9.22.0/firebase-firestore.js";
 
+        // For Firebase JS SDK v7.20.0 and later, measurementId is optional
         const firebaseConfig = {
-            // https://firebase.google.com/?hl=ko
-            // 파이어베이스에 접속한 후 프로젝트 설정에 들어갑니다.
-            // 본인 firebaseConfig 내용으로 설정해 줍니다.
-
             apiKey: "AIzaSyC8lFQnpXxeJ78qqV6GcR6-AMGmmguJXhI",
             authDomain: "sparta-d4c05.firebaseapp.com",
             projectId: "sparta-d4c05",
@@ -242,26 +240,25 @@
             measurementId: "G-2314GXSSXN"
         };
 
+        // Firebase 인스턴스 초기화
         const app = initializeApp(firebaseConfig);
         const db = getFirestore(app);
+
 
         // 데이터 추가
         $("#addBtn").click(async function () {
 
             // title_input, comment_input, image_input id를 가진 HTML 요소에서 값을 가져와서 title, comment, image 변수에 저장해 주세요.
-            let image = $('#image_input').val();
-            let title = $('#title_input').val();
-            let star = $('#star_input').val();
-            let comment = $('#comment_input').val();
+            let image = $('#image_input');
+            let title = $('title_input');
+            let star = $('star_input');
+            let comment = $('comment_input');
 
             try {
                 const docRef = await addDoc(collection(db, "foods"), {
 
                     // 각각 담은 변수를 컬렉션 필드에 title, comment, image에 각각 넣어주세요.
-                    'title': title,
-                    'comment': comment,
-                    'image': image,
-                    'star': star
+                    
                 });
 
                 alert("음식이 추가 되었습니다!");
@@ -342,14 +339,13 @@
                         <label for="floatingInput">음식 이미지 주소</label>
                     </div>
                     <div class="form-floating mb-3">
-                        <input type="text" class="form-control" id="title_input" placeholder="음식명">
+                        <input type="text" class="form-control" id="title_input" placeholder="영화 제목">
                         <label for="foodTitle">음식명</label>
                     </div>
 
                     <div class="input-group mb-3">
                         <button class="btn btn-outline-secondary" type="button">별점</button>
-                        <select class="form-select" id="star_input"
-                            aria-label="Example select with button addon">
+                        <select class="form-select" id="star_input" aria-label="Example select with button addon">
                             <option selected>별점 선택</option>
                             <option value="1">⭐</option>
                             <option value="2">⭐⭐</option>
@@ -359,8 +355,7 @@
                         </select>
                     </div>
                     <div class="form-floating">
-                        <textarea class="form-control" placeholder="Leave a comment here"
-                            id="comment_input"></textarea>
+                        <textarea class="form-control" placeholder="Leave a comment here" id="comment_input"></textarea>
                         <label for="floatingTextarea">추천 이유</label>
                     </div>
                     <div class="button2">
