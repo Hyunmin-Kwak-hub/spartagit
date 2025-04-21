@@ -7,7 +7,6 @@ public class App {
 
         Scanner scanner = new Scanner(System.in);
 
-        String request = null;
 
 //        String sum = "+";
 //        String sub = "-";
@@ -40,8 +39,8 @@ public class App {
 
             char res = input.charAt(0); // 응답을 charAt(0)으로 저장
 
-            num1 =0;
-            num2 =0;
+            num1 = 0;
+            num2 = 0;
             result = 0;
 
             switch (res) {
